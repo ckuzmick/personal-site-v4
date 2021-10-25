@@ -1,0 +1,121 @@
+:root {
+    --theme-ui-colors-text: hsl(210, 50%, 96%);
+    --theme-ui-colors-background: hsl(230, 25%, 18%);
+    --theme-ui-colors-primary: hsl(260, 100%, 80%);
+    --theme-ui-colors-secondary: hsl(290, 100%, 80%);
+    --theme-ui-colors-highlight: hsl(260, 20%, 40%);
+    --theme-ui-colors-purple: hsl(290, 100%, 80%);
+    --theme-ui-colors-muted: hsla(230, 20%, 0%, 20%);
+    --theme-ui-colors-gray: hsl(210, 50%, 60%);
+}
+
+main {
+    font-family: 'Courier Final Draft','Courier Screenplay',Courier;
+    width: 480pt;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.transition {
+    text-align: right;
+    color: var(--theme-ui-colors-gray);
+}
+
+h6 {
+    font-size: 16px;
+    color: var(--theme-ui-colors-primary);
+}
+
+span.scnuml {
+    display: block;
+    float: left;
+    margin-left: -4.52em;
+    font-weight: inherit;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+span.scnumr {
+    display: block;
+    float: right;
+    margin-right: 0.72em;
+    font-weight: inherit;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+div.block {
+    position: relative;
+    background: #fff;
+}
+
+div.action p {
+    margin-top: 1em;
+}
+
+.centered {
+    text-align: center;
+}
+
+div.dialog,div.dual {
+    margin-top: 1em;
+}
+
+div.transition {
+    margin-top: 1em;
+    margin-bottom: 12pt;
+    text-align: right;
+}
+
+.dialog p.character {
+    padding-left: 153.33pt;
+}
+
+.dialog p.parenthetical {
+    padding-left: 115pt;
+}
+
+.dialog p {
+    padding-left: 76.67pt;
+    width: 306.67pt;
+}
+
+.dual > div {
+    float: left;
+    width: 48%!important;
+}
+
+.dual p.character {
+    padding-left: 6em;
+}
+
+.dual p.parenthetical {
+    padding-left: 3em;
+}
+
+.dual p {
+    padding-left: 0;
+    width: 19em;
+}
+
+.dual .right {
+    margin-left: 1em;
+}
+
+.dual .right p.character {
+    padding-left: 6em;
+}
+
+.character {
+    margin-bottom: -14px;
+}

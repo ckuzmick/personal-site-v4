@@ -4,6 +4,7 @@ module.exports = {
     title: "personal-site-v4",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-theme-ui",
     "gatsby-plugin-mdx",
@@ -15,5 +16,12 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `GatsbyJS`,
+        icon: `src/images/gatsby-icon.png`
+      }
+    }
   ],
 };

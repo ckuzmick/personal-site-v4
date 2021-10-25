@@ -1,0 +1,40 @@
+:root {
+    --theme-ui-colors-text: hsl(210, 50%, 96%);
+    --theme-ui-colors-background: hsl(230, 25%, 18%);
+    --theme-ui-colors-primary: hsl(260, 100%, 80%);
+    --theme-ui-colors-secondary: hsl(290, 100%, 80%);
+    --theme-ui-colors-highlight: hsl(260, 20%, 40%);
+    --theme-ui-colors-purple: hsl(290, 100%, 80%);
+    --theme-ui-colors-muted: hsla(230, 20%, 0%, 20%);
+    --theme-ui-colors-gray: hsl(210, 50%, 60%);
+}
+
+#movieProject {
+    display: flex;
+    flex-direction: column;
+}
+
+#movieTitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--theme-ui-colors-text);
+    text-decoration: none;
+}
+
+#movieTitle:hover {
+    text-decoration: underline --theme-ui-colors-gray;
+}
+
+#movieDate {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--theme-ui-colors-secondary);
+    text-decoration: none;
+    margin-top: -5px;
+}
+
+#movieDescription {
+    font-size: 16px;
+    color: var(--theme-ui-colors-gray);
+    text-decoration: none;
+}
